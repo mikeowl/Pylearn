@@ -46,8 +46,8 @@ if choice == 1: #Loto -- 6 Numeros para elegir para el Loto
         print("Buena suerte!!!")
 elif choice == 2:
         print ("QUINI 6 - Numeros random")
-        #loteria
-        nums = []
+        #Quini random numbers
+        nums = [] #creamos lista vacia
 
         balls = [i for i in range(1,46)]
         random.shuffle(balls)
@@ -71,7 +71,7 @@ elif choice == 3:
         #Print the results
         print(msg + str(calculate_area(height,base)))
 elif choice == 4:
-        print ("Jugando con numpy")
+        print ("Jugando con numpy -- In progress")
         r = np.arange(36)
         r.resize((6, 6))
         print (r)
@@ -134,7 +134,7 @@ elif choice == 8:
         print ("---------------Log")
         i = datetime.now()
 
-        with open('hello.txt', 'a+') as f:   #con el metodo with, el archivo se cierra automaticamente
+        with open('log.txt', 'a+') as f:   #con el metodo with, el archivo se cierra automaticamente
             f.write(("\n------------------Edicion nueva de archivo \nFecha y hora: " + (i.strftime('%Y/%m/%d %H:%M:%S ')) + input("Usuario: ")))
             f.write("\n" + (i.strftime('%Y/%m/%d %H:%M:%S.%f ')[:-5])) #con la \n se cambia de linea el -5 acortamos los milisegundos
             f.write(" " + input("Linea a agregar: "))
