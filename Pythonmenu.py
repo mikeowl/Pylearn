@@ -2,8 +2,8 @@ print (chr(27)+"[0;36m"+"Desarrollado por MBD")
 print (30 * '-')
 print ("   M A I N - M E N U")
 print (30 * '-')
-print ("1. Quiniela")
-print ("2. Loteria")
+print ("1. Numeros a ingresar para el LOTO")
+print ("2. QUINI 6")
 print ("3. Area de triangulo")
 print ("4. Jugando con numpy")
 print ("5. Recursividad")
@@ -33,8 +33,8 @@ while not is_valid :
             print ("'%s' is not a valid integer." % e.args[0].split(": ")[1])
 
 ### Take action as per selected menu-option ###
-if choice == 1:
-        print ("Quiniela------")
+if choice == 1: #Loto -- 6 Numeros para elegir para el Loto
+        print ("Numeros para el Loto------")
         def getNums(size):
             nums = []
             for x in range(size):
@@ -45,7 +45,7 @@ if choice == 1:
         print("Tus numeros de la Quiniela son los siguientes:", mynums)
         print("Buena suerte!!!")
 elif choice == 2:
-        print ("Loteria")
+        print ("QUINI 6 - Numeros random")
         #loteria
         nums = []
 
