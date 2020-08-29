@@ -174,7 +174,7 @@ else:
 
 
 
-'''
+''' To add later
 lista1 = ['Rodolfo', 'Maria','Jose']
 a = input("Ingresa el nombre: ")
 b = [] #Lista vacia para guardar la opcion incorrecta
