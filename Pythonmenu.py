@@ -158,15 +158,15 @@ elif choice == 9:
     all_char = string.ascii_letters + string.punctuation + string.digits # Todos los caracteres
     # leters_n_nums = [chr(i) for i in range(97, 123)] + [str(x) for x in range(10)]
 
-    def pass_generator(lenght):
-      leng = lenght
+    def pass_generator(length):
+      leng = length
       password = [] #creamos una lista vacia
       for i in range(leng):
         password.append(random.choice(all_char))
       return "".join(password) #retornamos todos los caracteres a la lista
 
-    lenght = int(input("Pasword lenght: "))
-    print("Password generada:", pass_generator(lenght))
+    length = int(input("Pasword length: "))
+    print("Password generada:", pass_generator(length))
 
 else:
         print ("Invalid number. Try again...")
