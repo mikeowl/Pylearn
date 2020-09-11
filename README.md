@@ -7,3 +7,4 @@ The following is a Python menu example that uses a variety of Python programming
 - Returning an area of a triangle
 - Use of Numpy module
 - Use of Geoloc module for meauring distances
+- String inversion
