@@ -11,6 +11,7 @@ print ("6. Medicion de distancias desde Buenos Aires")
 print ("7. Barra de progreso")
 print ("8. Log")
 print ("9. Generador de password")
+print ("10. Invertir cadena en Python")
 print (30 * '-')
 
 import random
@@ -27,7 +28,7 @@ is_valid = 0
 
 while not is_valid :
         try :
-                choice = int ( input('Enter your choice [1-9] : ') )
+                choice = int ( input('Enter your choice [1-10] : ') )
                 is_valid = 1 ## set it to 1 to validate input and to terminate the while..not loop
         except ValueError as e :
             print ("'%s' is not a valid integer." % e.args[0].split(": ")[1])
@@ -167,7 +168,12 @@ elif choice == 9:
 
     length = int(input("Pasword length: "))
     print("Password generada:", pass_generator(length))
-
+elif choice == 10:
+        print ("---------------Invertir cadena")
+        def invertir_cadena():
+            cadena = input("Ingresa la cadena a invertir:")
+            print (cadena[::-1]) --iterador
+        invertir_cadena()
 else:
         print ("Invalid number. Try again...")
 
