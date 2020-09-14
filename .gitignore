@@ -1,2 +1,3 @@
 # Git Ignore
 log.txt
+/__pycache__
