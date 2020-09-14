@@ -140,7 +140,7 @@ elif choice == 8:
             f.write("\n" + (i.strftime('%Y/%m/%d %H:%M:%S.%f ')[:-5])) #con la \n se cambia de linea el -5 acortamos los milisegundos
             f.write(" " + input("Linea a agregar: "))
 
-        with open('hello.txt', 'r') as f:
+        with open('log.txt', 'r') as f:
             data = f.readlines()
 
 

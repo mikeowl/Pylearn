@@ -1,1 +1,4 @@
 Log
+------------------Edicion nueva de archivo 
+Fecha y hora: 2020/09/14 16:13:58 Another
+2020/09/14 16:13:58.21 Hey
